@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPChatClient", "TCPChat\TCPChatClient.csproj", "{69EB43B6-9F1D-4FA1-B817-C671DA4C617A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer", "ChatServer\ChatServer.csproj", "{8EA42774-104D-4DB1-92D1-85413D166FF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{279CF517-38E1-474B-BCE1-67C958A5729F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8EA42774-104D-4DB1-92D1-85413D166FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EA42774-104D-4DB1-92D1-85413D166FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EA42774-104D-4DB1-92D1-85413D166FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{279CF517-38E1-474B-BCE1-67C958A5729F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{279CF517-38E1-474B-BCE1-67C958A5729F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{279CF517-38E1-474B-BCE1-67C958A5729F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{279CF517-38E1-474B-BCE1-67C958A5729F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
